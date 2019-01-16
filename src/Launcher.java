@@ -9,6 +9,7 @@ import jade.wrapper.StaleProxyException;
 public class Launcher{
 	public static void main(String [] args) throws ControllerException
 	{	
+		// Launcher initialisation
 		Runtime rt = Runtime.instance();
 		rt.setCloseVM(true);
 		Profile pMain = new ProfileImpl("localhost", 8888, null);
