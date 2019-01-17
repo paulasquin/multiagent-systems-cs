@@ -15,7 +15,7 @@ public class SayingHelloBehaviour extends Behaviour {
 		counter++;
 
 		//Making the agent to wait
-		block(1000);
+		block(100);
 		
 		if (counter==MAX)
 			System.out.println("Agent " + ((TestAgent)myAgent).getMyID() + " finish");
